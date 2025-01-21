@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: 70rem;
+ 
+  padding: 0 1rem;
+  margin: 2rem auto;
+
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  gap: 2rem;
+
+  /* o padrão é esticar os dois elementos para ficarem do mesmo tamanho
+  /* o align-itens flex-start faz eles ficarem sempre no topo sem esticar*/
+  align-items: flex-start;
+}
