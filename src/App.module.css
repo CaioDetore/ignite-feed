@@ -1,6 +1,6 @@
 .wrapper {
   max-width: 70rem;
- 
+
   padding: 0 1rem;
   margin: 2rem auto;
 
@@ -15,4 +15,14 @@
 
 .commentList {
   margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
 }

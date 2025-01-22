@@ -13,11 +13,11 @@ export function Post() {
             <strong>Caio Detore</strong>
             <span>UX Designer</span>
           </div>
-
-          <time title="21 de Janeiro de 2025" dateTime="2025-01-21 15:00:00">
-            Publicado há 1h
-          </time>
         </div>
+        
+        <time title="21 de Janeiro de 2025" dateTime="2025-01-21 15:00:00">
+          Publicado há 1h
+        </time>
       </header>
 
       <div className={styles.content}>
