@@ -12,3 +12,7 @@
   /* o align-itens flex-start faz eles ficarem sempre no topo sem esticar*/
   align-items: flex-start;
 }
+
+.commentList {
+  margin-top: 2rem;
+}
